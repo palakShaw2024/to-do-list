@@ -1,0 +1,60 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: bisque;
+
+}
+
+.container {
+    max-width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: brown;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 1, 1);
+}
+
+h1 {
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+.todo-input {
+    width: 100%;
+    display: flex; 
+}  
+    
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: beige;
+    cursor: pointer;
+    font-style: italic;
+    
+}
+
+button:hover {
+    background-color: lightslategray;
+    font-Size: 30px;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+}
